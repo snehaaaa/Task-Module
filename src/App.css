@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.filterListSection{
+  display: flex;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* .task:hover > .close {
+  display: block !important;
+}
+.close{
+  display: none;
+} */
+
+.main_container{
+    background-color: #e3e8ec;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.child_container{
+ 
+    width:50%;
+}
+.sub_container{
+  background-color: white;
+}
+.my_lis{
+
+  font-size: 30px;
+  color: gray;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+
+}
+.filter{
+  padding: 10px;
+    color: #000000d4;
+}
+.filterItem{
+  padding:0px 5px
+}
+.activefilter{
+  padding:0px 5px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.task{
+  border-top: 1px solid gray;
+}
+.wrapper{
+  display: flex;
+}
+.sub_wrapper{
+  display: flex;
+  padding: 10px;
+}
+.close{
+  left: 85%;
+  position: relative;
+  display: none
+}
